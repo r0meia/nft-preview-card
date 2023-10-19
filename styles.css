@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Outfit';
+    src: url(fonts/Outfit-VariableFont_wght.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit';
+
+}
+html {
+    background-color: hsl(217, 54%, 11%);
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background-color: hsl(216, 50%, 16%);
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    height: 600px;
+    box-shadow: 0px 0px 30px 5px rgba(0, 0, 0, 0.75);
+}
+
+img {
+    width: 100%;
+    border-radius: 15px;
+}
+h1 {
+    color: white;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 16px;
+}
+.description {
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    margin-top: 18px;
+    font-weight: 300;
+}
+.ethereum {
+    display: flex;
+    flex-direction: row;
+    margin-top: 22px;
+}
+#eth {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+}
+#days {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+h2 {
+    font-weight: 400;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 8px;
+}
+.three-days {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    margin-left: 8px;
+    color: hsl(215, 51%, 70%);
+}
+hr {
+    margin-top: 30px;;
+    border-color: hsl(215, 32%, 27%);
+}
+#creation {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-top: 20px;;
+
+}
+#creator {
+    border: 1px solid white;
+    border-radius: 100%;
+    height: 30px;
+    width: 30px;
+}
+.creator-name {
+    font-size: 16px;
+    color: hsl(215, 51%, 70%);
+    margin-left: 16px;
+}
+span {
+    color: white;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);  
+}
